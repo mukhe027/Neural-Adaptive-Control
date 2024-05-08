@@ -148,9 +148,22 @@
     <div class="container is-max-desktop">
         <div class="hero-body">
             <div class="container">
-               In this paper, we address the problem of stable and robust control of vehicles with lateral error dynamics for the application of \emph{lane keeping}. With lane departure being one of the primary reasons for half of the fatalities in road accidents, developing controllers that are \emph{stable}, \emph{adaptive} as well as \emph{robust} is a necessity. 
-% Traditional \emph{linear feedback} controllers achieve satisfactory tracking performance, however, they exhibit unstable behavior when \emph{uncertainties} are induced into the system. In the context of lane keeping, any disturbance or uncertainty introduced to the steering-angle input can be catastrophic for the vehicle. Therefore, controllers must be developed to actively tackle such uncertainties. 
-In this regard, we introduce a Neural $\mathcal{L}_1$ Adaptive controller (\neural) which learns the uncertainties in the lateral error dynamics of a front-steered Ackermann vehicle and guarantees stability and robustness. Our contributions are threefold: i) We extend the theoretical results for \emph{guaranteed} stability and robustness of conventional $\mathcal{L}_1$ Adaptive controllers to \neural; ii)We implement a \neural~for the lane keeping application which learns uncertainties in the dynamics; iii) We provide simulation results using Physics-based simulation  on PyBullet as well as experimental results using the F1TENTH platform to demonstrate superior reference trajectory \emph{tracking performance} of \neural~compared to state-of-the-art controllers, with externally induced sensor noise and control signal disturbance. \neural~is able to complete traversing whole arbitrary trajectories while keeping the system stable and robust in the presence of sensor noise, external disturbances and physical obstacles, whereas other controllers exhibit unstable behavior. 
+               In this paper, we address the problem of stable and robust control of vehicles with lateral error dynamics for the application of 
+                lane keeping. With lane departure being one of the primary reasons for half of the fatalities in road accidents, developing 
+                controllers that are stable, adaptive as well as robust is a necessity. 
+                Traditional linear feedback controllers achieve satisfactory tracking performance, however, they exhibit unstable behavior when 
+                uncertainties are induced into the system. In the context of lane keeping, any disturbance or uncertainty introduced to
+                the steering-angle input can be catastrophic for the vehicle. Therefore, controllers must be developed to actively tackle such 
+                uncertainties. 
+               In this regard, we introduce a Neural L1 Adaptive controller which learns the uncertainties in the lateral error dynamics 
+                of a front-steered Ackermann vehicle and guarantees stability and robustness. Our contributions are threefold: i) We extend the theoretical 
+                results for guaranteed stability and robustness of conventional L1 Adaptive controllers to \neural; ii)We implement a 
+                Neural L1 Adaptive controller for the lane keeping application which learns uncertainties in the dynamics; 
+                iii) We provide simulation results using Physics-based 
+                simulation  on PyBullet as well as experimental results using the F1TENTH platform to demonstrate superior reference trajectory 
+                tracking performance of Neural L1 Adaptive controller compared to state-of-the-art controllers, with externally induced sensor noise and control 
+                signal disturbance. Neural L1 Adaptive controller is able to complete traversing whole arbitrary trajectories while keeping the system stable and robust 
+                in the presence of sensor noise, external disturbances and physical obstacles, whereas other controllers exhibit unstable behavior. 
                 <br>
                 <br>
             </div>
